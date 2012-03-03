@@ -7,28 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F24136F14FFD77A00F29B07 /* Paddle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F24136E14FFD77A00F29B07 /* Paddle.cpp */; };
+		1F24137A1500442600F29B07 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F2413791500442600F29B07 /* Game.cpp */; };
+		1F2AF8A21500C1F900B35E67 /* GameView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F2AF8A11500C1F900B35E67 /* GameView.mm */; };
+		1F2AF8A91500CB2300B35E67 /* XDrawingContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F2AF8A81500CB2300B35E67 /* XDrawingContext.mm */; };
 		1F8AB13214FFBCDA00703CF4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F8AB13114FFBCDA00703CF4 /* Cocoa.framework */; };
 		1F8AB13C14FFBCDA00703CF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F8AB13A14FFBCDA00703CF4 /* InfoPlist.strings */; };
 		1F8AB13E14FFBCDA00703CF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AB13D14FFBCDA00703CF4 /* main.m */; };
 		1F8AB14214FFBCDA00703CF4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F8AB14014FFBCDA00703CF4 /* Credits.rtf */; };
-		1F8AB14514FFBCDA00703CF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AB14414FFBCDA00703CF4 /* AppDelegate.m */; };
+		1F8AB14514FFBCDA00703CF4 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AB14414FFBCDA00703CF4 /* AppDelegate.mm */; };
 		1F8AB14814FFBCDB00703CF4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F8AB14614FFBCDA00703CF4 /* MainMenu.xib */; };
+		1F8AB15014FFBEE900703CF4 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AB14F14FFBEE900703CF4 /* GameObject.cpp */; };
+		1F8AB15714FFC92800703CF4 /* GameField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AB15614FFC92800703CF4 /* GameField.cpp */; };
+		1F8AB15914FFD23700703CF4 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F8AB15814FFD23700703CF4 /* Ball.cpp */; };
+		1FAB5033150251FB00667CA2 /* HumanPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB5032150251FB00667CA2 /* HumanPlayer.cpp */; };
+		1FAB50351502526900667CA2 /* ComputerPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1FAB50341502526900667CA2 /* ComputerPlayer.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F24136E14FFD77A00F29B07 /* Paddle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paddle.cpp; sourceTree = "<group>"; };
+		1F24137515003BEC00F29B07 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		1F24137615003DBA00F29B07 /* HumanPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HumanPlayer.h; sourceTree = "<group>"; };
+		1F2413771500408B00F29B07 /* ComputerPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerPlayer.h; sourceTree = "<group>"; };
+		1F241378150043A500F29B07 /* Game.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		1F2413791500442600F29B07 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		1F2AF8A01500C1F900B35E67 /* GameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameView.h; sourceTree = "<group>"; };
+		1F2AF8A11500C1F900B35E67 /* GameView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameView.mm; sourceTree = "<group>"; };
+		1F2AF8A61500C75E00B35E67 /* DrawingContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawingContext.h; sourceTree = "<group>"; };
+		1F2AF8A71500C8B200B35E67 /* XDrawingContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDrawingContext.h; sourceTree = "<group>"; };
+		1F2AF8A81500CB2300B35E67 /* XDrawingContext.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XDrawingContext.mm; sourceTree = "<group>"; };
+		1F372E751502A4AF00E75BAF /* InputHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputHandler.h; sourceTree = "<group>"; };
 		1F8AB12D14FFBCDA00703CF4 /* XPong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XPong.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F8AB13114FFBCDA00703CF4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1F8AB13414FFBCDA00703CF4 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		1F8AB13514FFBCDA00703CF4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1F8AB13614FFBCDA00703CF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1F8AB13914FFBCDA00703CF4 /* XPong-Info.plist */ = {isa = PBXFileReference; path = "XPong-Info.plist"; sourceTree = "<group>"; };
+		1F8AB13914FFBCDA00703CF4 /* XPong-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XPong-Info.plist"; sourceTree = "<group>"; };
 		1F8AB13B14FFBCDA00703CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F8AB13D14FFBCDA00703CF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1F8AB13F14FFBCDA00703CF4 /* XPong-Prefix.pch */ = {isa = PBXFileReference; path = "XPong-Prefix.pch"; sourceTree = "<group>"; };
+		1F8AB13F14FFBCDA00703CF4 /* XPong-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XPong-Prefix.pch"; sourceTree = "<group>"; };
 		1F8AB14114FFBCDA00703CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		1F8AB14314FFBCDA00703CF4 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
-		1F8AB14414FFBCDA00703CF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F8AB14314FFBCDA00703CF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F8AB14414FFBCDA00703CF4 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
 		1F8AB14714FFBCDB00703CF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1F8AB14F14FFBEE900703CF4 /* GameObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
+		1F8AB15114FFBEFB00703CF4 /* GameObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameObject.h; sourceTree = "<group>"; };
+		1F8AB15214FFC11200703CF4 /* Geometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Geometry.h; sourceTree = "<group>"; };
+		1F8AB15314FFC3F800703CF4 /* Ball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		1F8AB15414FFC46800703CF4 /* Paddle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Paddle.h; sourceTree = "<group>"; };
+		1F8AB15514FFC7E000703CF4 /* GameField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameField.h; sourceTree = "<group>"; };
+		1F8AB15614FFC92800703CF4 /* GameField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameField.cpp; sourceTree = "<group>"; };
+		1F8AB15814FFD23700703CF4 /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
+		1FAB5031150246F400667CA2 /* Drawable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Drawable.h; sourceTree = "<group>"; };
+		1FAB5032150251FB00667CA2 /* HumanPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HumanPlayer.cpp; sourceTree = "<group>"; };
+		1FAB50341502526900667CA2 /* ComputerPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ComputerPlayer.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,42 +95,64 @@
 			isa = PBXGroup;
 			children = (
 				1F8AB13114FFBCDA00703CF4 /* Cocoa.framework */,
-				1F8AB13314FFBCDA00703CF4 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1F8AB13314FFBCDA00703CF4 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
 				1F8AB13414FFBCDA00703CF4 /* AppKit.framework */,
-				1F8AB13514FFBCDA00703CF4 /* CoreData.framework */,
 				1F8AB13614FFBCDA00703CF4 /* Foundation.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1F8AB13714FFBCDA00703CF4 /* XPong */ = {
 			isa = PBXGroup;
 			children = (
-				1F8AB14314FFBCDA00703CF4 /* AppDelegate.h */,
-				1F8AB14414FFBCDA00703CF4 /* AppDelegate.m */,
-				1F8AB14614FFBCDA00703CF4 /* MainMenu.xib */,
-				1F8AB13814FFBCDA00703CF4 /* Supporting Files */,
+				1F8AB14E14FFBECD00703CF4 /* Pong */,
+				1F8AB13814FFBCDA00703CF4 /* UI */,
 			);
 			path = XPong;
 			sourceTree = "<group>";
 		};
-		1F8AB13814FFBCDA00703CF4 /* Supporting Files */ = {
+		1F8AB13814FFBCDA00703CF4 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				1F2AF8A71500C8B200B35E67 /* XDrawingContext.h */,
+				1F2AF8A81500CB2300B35E67 /* XDrawingContext.mm */,
+				1F2AF8A01500C1F900B35E67 /* GameView.h */,
+				1F2AF8A11500C1F900B35E67 /* GameView.mm */,
+				1F8AB14314FFBCDA00703CF4 /* AppDelegate.h */,
+				1F8AB14414FFBCDA00703CF4 /* AppDelegate.mm */,
+				1F8AB14614FFBCDA00703CF4 /* MainMenu.xib */,
 				1F8AB13914FFBCDA00703CF4 /* XPong-Info.plist */,
 				1F8AB13A14FFBCDA00703CF4 /* InfoPlist.strings */,
 				1F8AB13D14FFBCDA00703CF4 /* main.m */,
 				1F8AB13F14FFBCDA00703CF4 /* XPong-Prefix.pch */,
 				1F8AB14014FFBCDA00703CF4 /* Credits.rtf */,
 			);
-			name = "Supporting Files";
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1F8AB14E14FFBECD00703CF4 /* Pong */ = {
+			isa = PBXGroup;
+			children = (
+				1F8AB15214FFC11200703CF4 /* Geometry.h */,
+				1F2AF8A61500C75E00B35E67 /* DrawingContext.h */,
+				1FAB5031150246F400667CA2 /* Drawable.h */,
+				1F8AB15114FFBEFB00703CF4 /* GameObject.h */,
+				1F8AB14F14FFBEE900703CF4 /* GameObject.cpp */,
+				1F8AB15414FFC46800703CF4 /* Paddle.h */,
+				1F24136E14FFD77A00F29B07 /* Paddle.cpp */,
+				1F8AB15314FFC3F800703CF4 /* Ball.h */,
+				1F8AB15814FFD23700703CF4 /* Ball.cpp */,
+				1F8AB15514FFC7E000703CF4 /* GameField.h */,
+				1F8AB15614FFC92800703CF4 /* GameField.cpp */,
+				1F372E751502A4AF00E75BAF /* InputHandler.h */,
+				1F24137515003BEC00F29B07 /* Player.h */,
+				1F24137615003DBA00F29B07 /* HumanPlayer.h */,
+				1FAB5032150251FB00667CA2 /* HumanPlayer.cpp */,
+				1F2413771500408B00F29B07 /* ComputerPlayer.h */,
+				1FAB50341502526900667CA2 /* ComputerPlayer.cpp */,
+				1F241378150043A500F29B07 /* Game.h */,
+				1F2413791500442600F29B07 /* Game.cpp */,
+			);
+			name = Pong;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +219,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F8AB13E14FFBCDA00703CF4 /* main.m in Sources */,
-				1F8AB14514FFBCDA00703CF4 /* AppDelegate.m in Sources */,
+				1F8AB14514FFBCDA00703CF4 /* AppDelegate.mm in Sources */,
+				1F8AB15014FFBEE900703CF4 /* GameObject.cpp in Sources */,
+				1F8AB15714FFC92800703CF4 /* GameField.cpp in Sources */,
+				1F8AB15914FFD23700703CF4 /* Ball.cpp in Sources */,
+				1F24136F14FFD77A00F29B07 /* Paddle.cpp in Sources */,
+				1F24137A1500442600F29B07 /* Game.cpp in Sources */,
+				1F2AF8A21500C1F900B35E67 /* GameView.mm in Sources */,
+				1F2AF8A91500CB2300B35E67 /* XDrawingContext.mm in Sources */,
+				1FAB5033150251FB00667CA2 /* HumanPlayer.cpp in Sources */,
+				1FAB50351502526900667CA2 /* ComputerPlayer.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +348,7 @@
 				1F8AB14D14FFBCDB00703CF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
